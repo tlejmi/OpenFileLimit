@@ -28,3 +28,7 @@ function updateNoFileSystem() {
      ulimit -n 500000
      echo "Common-session and Limit Config Updated"
  }
+ 
+ updatelimit()
+ 
+ updateNoFileSystem() 
