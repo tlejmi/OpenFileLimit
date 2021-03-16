@@ -29,6 +29,6 @@ function updateNoFileSystem() {
      echo "Common-session and Limit Config Updated"
  }
  
- updatelimit()
+ updatelimit
  
- updateNoFileSystem() 
+ updateNoFileSystem
