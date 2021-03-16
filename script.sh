@@ -1,6 +1,14 @@
 
 #!/bin/bash
 
+function CheckArgument() {
+  if [ -z "$1" ]
+  then
+    echo $2;
+    exit 1;
+   fi
+}
+
 function updateLine {
   CheckArgument "$1" "No String Pattern";
   CheckArgument "$2" "No String To Update";
